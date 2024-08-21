@@ -10,17 +10,20 @@ This front-end application allows users to create and manage their profiles and 
    Visual Studio Code
 
 2. Copy the following repositories to your local machine:
+   
    https://github.com/adseawright/software_architecture_mvp_main
+   
    https://github.com/adseawright/software_architecture_mvp_frontend
+
    [https://github.com/adseawright/software_architecture_mvp_backend](https://github.com/adseawright/software_architecture_mvp_backend/tree/main/software_architecture_mvp_backend)
 
-3. Open the Code Worspace Source File software_architecture_mvp_main in Visual Studio Code
+4. Open the Code Worspace Source File software_architecture_mvp_main in Visual Studio Code
    
-4. Open PowerShell terminal on software_architecture_mvp_main
+5. Open PowerShell terminal on software_architecture_mvp_main
    
-5. Run the following code docker-compose up --build
+6. Run the following code docker-compose up --build
    
-6. You'll be able to see the application in your browser:
+7. You'll be able to see the application in your browser:
 
 http://localhost:3000/login
 
