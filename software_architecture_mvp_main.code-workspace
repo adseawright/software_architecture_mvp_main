@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../software_architecture_mvp_backend"
+		},
+		{
+			"path": "../software_architecture_mvp_frontend"
+		}
+	]
+}

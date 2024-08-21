@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ../software_architecture_mvp_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../software_architecture_mvp_backend:/app
+    depends_on:
+      - frontend
+
+  frontend:
+    build:
+      context: ../software_architecture_mvp_frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../software_architecture_mvp_frontend:/app
