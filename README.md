@@ -20,7 +20,9 @@ This front-end application allows users to create and manage their profiles and 
    
 5. Run the following code docker-compose up --build
    
-6. You'll be able to see the application from your browser: http://localhost:3000/login
+6. You'll be able to see the application in your browser:
+
+http://localhost:3000/login
 
 ### API Endpoints
 - `/login`: Login API
@@ -34,7 +36,10 @@ This front-end application allows users to create and manage their profiles and 
 - Used the PayPal API to handle payment processing in our application. This API allows users to make secure payments through their PayPal accounts, enhancing the safety and reliability of transactions.
 
 ### How PayPal API is Used
-      To be able to test the paypal API with your credentials, you'll need to create a PayPal developer account on https://developer.paypal.com/home/
+      To be able to test the paypal API with your credentials, you'll need to create a PayPal developer account on 
+      
+      https://developer.paypal.com/home/
+      
       If you already have a Paypal account, you can use the same credentials.
       
 #### API Endpoint:
@@ -43,7 +48,9 @@ This front-end application allows users to create and manage their profiles and 
 #### Integration:
         The frontend interacts with the PayPal API to initiate payments and handle responses.
         The backend validates payment confirmations received from the PayPal API.
-        You can use any of the fake credit card numbers to test a payment https://developer.paypal.com/tools/sandbox/card-testing/#link-testcardnumbers
+        You can use any of the fake credit card numbers to test a payment 
+        
+        https://developer.paypal.com/tools/sandbox/card-testing/#link-testcardnumbers
 
 #### Environment Variables:
         Edit the `.env` file in the root directory with the necessary environment variables for PayPal integration.
@@ -55,8 +62,13 @@ This front-end application allows users to create and manage their profiles and 
         
 #### External API CALL File
 
-    The backend file that implements the Paypal API connection is order.py https://github.com/adseawright/software_architecture_mvp_backend/blob/main/software_architecture_mvp_backend/app/views/order.py 
-    The frontend file that handles the buying process is Checkout.js https://github.com/adseawright/software_architecture_mvp_frontend/blob/main/src/components/Checkout.js
+    The backend file that implements the Paypal API connection is order.py 
+    
+    https://github.com/adseawright/software_architecture_mvp_backend/blob/main/software_architecture_mvp_backend/app/views/order.py 
+    
+    The frontend file that handles the buying process is Checkout.js 
+    
+    https://github.com/adseawright/software_architecture_mvp_frontend/blob/main/src/components/Checkout.js
     
 ## Architecture Diagram
 ![Architecture Diagram](/kidstore_architecture.PNG)
