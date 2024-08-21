@@ -12,7 +12,7 @@ This front-end application allows users to create and manage their profiles and 
 2. Copy the following repositories to your local machine:
    https://github.com/adseawright/software_architecture_mvp_main
    https://github.com/adseawright/software_architecture_mvp_frontend
-   https://github.com/adseawright/software_architecture_mvp_backend
+   [https://github.com/adseawright/software_architecture_mvp_backend](https://github.com/adseawright/software_architecture_mvp_backend/tree/main/software_architecture_mvp_backend)
 
 3. Open the Code Worspace Source File software_architecture_mvp_main in Visual Studio Code
    
